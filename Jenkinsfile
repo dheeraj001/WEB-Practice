@@ -38,7 +38,7 @@ pipeline {
         } 
         stage('Checking the app'){
             steps{
-                sh 'wget http://192.168.29.48:9000'
+                sh 'wget http://192.168.29.49:9000'
             }
         }
     }        
